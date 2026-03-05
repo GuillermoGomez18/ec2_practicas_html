@@ -1,6 +1,5 @@
 # ec2_practicas_html
-<!DOCTYPE html>
-<html lang="esp">
+<html>
 <head>
     <title>Mis prácticas</title>
 </head>
