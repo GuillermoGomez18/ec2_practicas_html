@@ -11,7 +11,7 @@
 <li><a href="practica_1/">Práctica 1</a></li>
 </ul>
 <ul>
-<li><a href="Portafolio_V1/">Práctica 1</a></li>
+<li><a href="Portafolio_V1/">Portafolio_V1</a></li>
 </ul>
 </body>
 </html>
