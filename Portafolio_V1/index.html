@@ -19,8 +19,88 @@
 <title>Mi portafolio macroepico</title>
 </head>
 <body>
-<header><p>Contenido macroepico del header</p></header>
-<main></main>
-<footer></footer>
+
+<header><div class="container">
+    <nav class="menu">
+        <a href="">Inicio</a>
+        <a href="">Acerca de</a>
+        <a href="">Trabajos</a>
+        <a href="">Habilidades</a>
+        <a href="">Contacto</a>
+    </nav>
+    <div class="container-text">
+        <div class="text">
+            <h1 class="name">Guillermo Gomez</h1>
+            <h2 class="profession">Estudiante de ingenieria en software</h2>
+            <button class="btn-cv">Descargar CV</button>
+        </div>
+    </div>
+</div>
+</header>
+<main>
+    <section id="section-about">
+        <div class="container">
+            <div class="photo">
+                <img src="./img/pfp.jpeg" width="200px" height="200px" alt="Memo Wins">
+            </div>
+            <div class="text">
+                <h3 class="title">Acerca de</h3>
+                <p> Estudiante de ingenieria en software que cursa el sexto semestre de carrera, experto en nada y aprendiz en todo</p>
+            </div>
+        </div>
+    </section>
+    <section id="section-jobs">
+        <div class="container">
+        <h3 class="title">Trabajos</h3>
+        <div class="container-jobs">
+            <div class="job">
+                <div class="thumb">
+                    <img src="./img/trabajo.jpg" width="250px" height="250px" alt="Trabajo">
+                </div>
+                <div class="description">
+                    <p class="name">Trabajo moderno</p>
+                    <p class="category"> HTML  -  C#  -  PHP </p>
+                </div>
+            </div>
+        </div>
+    </div>
+        </section>
+    <section id="section-skills">
+        <div class="container">
+            <h3 class="title">Habilidades</h3>
+            <div class="container-skills">
+                <div class="skill">
+                    <div class="icon-skill">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <div class="description"></div>
+                    <p class="name">HTML</p>
+                    <p class="category">Intermedio</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="container">
+        <section id="section-contact">
+            <h3 class="title">Contacto</h3>
+            <form class="form-message" action="">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Correo" required>
+                <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                <input class="btn-send-message" type="submit" value="Enviar">
+            </form>
+        </section>
+    </div>
+    <section id="section-socialMedia">
+        <div class="container"><a class="facebook" href="http://www.facebook.com/"> <i class="fa-brands fa-facebook-f"></i></a>
+        <a class="youtube" href="http://www.youtube.com/"> <i class="fa-brands fa-square-youtube"></i></a>
+        <a class="github" href="http://github.com/"> <i class="fa-brands fa-github"></i></a>
+    </div>
+       
+
+    </section>
+</footer>
 </body>
 </html>
